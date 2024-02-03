@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+ }
+.class{
+    display: flex;
+    height: 100%;
+}
+.right{
+    background-color: beige;
+    width: 48%;
+    height: 100%;
+}
+.left{
+    background-color: white;
+    
+}
+.opt{
+    display: flex;
+}
+
+    .button {
+        background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        height: 20%;
+        font-size: 16px;
+      }
