@@ -8,39 +8,31 @@
 </head>
 <body>
 
-
 <div class="class">
-<!--left-->
-<div class="left">
-   
-
-    <div class="ques">
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, velit tempora corporis laudantium sunt esse ea iure necessitatibus praesentium quaerat excepturi similique dolorem ut debitis eligendi non ipsum eveniet expedita?</p>
-   
-
-    
-    <div class="opt">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, velit tempora corporis laudantium sunt esse ea iure necessitatibus praesentium quaerat excepturi similique dolorem ut debitis eligendi non ipsum eveniet expedita?</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, velit tempora corporis laudantium sunt esse ea iure necessitatibus praesentium quaerat excepturi similique dolorem ut debitis eligendi non ipsum eveniet expedita?</p>
-     </div>
-
-
+    <!--left-->
+    <div class="left">
+        <div class="ques" id="question-container">
+            <p id="question-text">Loading question...</p>
+            <div class="opt" id="options-container">
+                <p id="option-1">Loading option 1...</p>
+                <p id="option-2">Loading option 2...</p>
+                <p id="option-3">Loading option 3...</p>
+                <p id="option-4">Loading option 4...</p>
+            </div>
+        </div>
+        <div>
+        <button class="button" onclick="confirmAnswer()">Confirm</button>
+        <button class="button" onclick="nextQuestion()">Next</button>
     </div>
- 
-    <button class="button">confirm</button>
-    <button class="button">next</button>
- 
-
-</div>
-
-
-
+    </div>
+<!-- Right -->
     <div class="right">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo asperiores non consectetur praesentium atque vero dolorem consequuntur cum rem mollitia ipsum fugit laboriosam velit rerum vitae cumque, nam, expedita adipisci.
         </p>
     </div>
 </div>
+
+<script src="Array.js"></script>
 </body>
 </html>
