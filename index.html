@@ -14,22 +14,29 @@
         <div class="ques" id="question-container">
             <p id="question-text">Loading question...</p>
             <div class="opt" id="options-container">
-                <p id="option-1">Loading option 1...</p>
-                <p id="option-2">Loading option 2...</p>
-                <p id="option-3">Loading option 3...</p>
-                <p id="option-4">Loading option 4...</p>
+                <button id="option-1" onclick="selectOption('option-1')">Loading option 1...</button>
+                <button id="option-2" onclick="selectOption('option-2')">Loading option 2...</button>
+                <button id="option-3" onclick="selectOption('option-3')">Loading option 3...</button>
+                <button id="option-4" onclick="selectOption('option-4')">Loading option 4...</button>
             </div>
         </div>
         <div>
-        <button class="button" onclick="confirmAnswer()">Confirm</button>
-        <button class="button" onclick="nextQuestion()">Next</button>
+        <button class="button" onclick="verifyAns()">Lock</button>
+        <button class="button" onclick="quitGame()">Quit</button>
+        <button class="button" onclick="lifeLine()">50-50 Life Line</button>
     </div>
     </div>
 <!-- Right -->
     <div class="right">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo asperiores non consectetur praesentium atque vero dolorem consequuntur cum rem mollitia ipsum fugit laboriosam velit rerum vitae cumque, nam, expedita adipisci.
-        </p>
+        <!-- Add this div for displaying the timer -->
+<div id="timer-container">
+    <p id="timer">Timer: <span id="timer-count">0:00</span></p>
+</div>
+<hr>
+        <div class="right-container">
+        <div id="price-container"></div>
+        <div class="green-dot" id="green-dot-container"></div>
+    </div>
     </div>
 </div>
 
